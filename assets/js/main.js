@@ -122,7 +122,7 @@
         $(this)
             .parents(".dropdown")
             .find(".btn span")
-            .php($(this).php() + "");
+            .html($(this).html() + "");
         $(this).parents(".dropdown").find(".btn").val($(this).data("value"));
     });
 
